@@ -1,0 +1,16 @@
+# Output files 
+log = comb_unshared.log
+error = comb_unshared.err
+output = comb_unshared.out
+
+getenv = True
+
+# Executable 
+executable = combined_unshared.sh
+
+# Resources 
+request_GPUs = 1
+request_memory = 16GB
+
+# Job number
+queue 1
